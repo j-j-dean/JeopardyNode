@@ -6,9 +6,10 @@ features for web and mobile applications
 ## Run the application (with administrator privilege from command prompt)
 node jeopardy-db.js
 ## See the results (in the browser)
-http://localhost:5000/(Database-Table-Name)/<br/>
-where (Database-Table-Name) can be Categories, Questions, Answers
-and the port number being used is 5000 (if necessary, the port number
+http://localhost:5000/Categories/ (for a listing of the categories in the Jeopardy database)<br/>
+http://localhost:5000/Questions/ (for a listing of the questions in the Jeopardy database)<br/>
+http://localhost:5000/Answers/ (for a listing of the answers in the Jeopardy database)<br/>
+The port number being used is 5000 (if necessary, the port number
 can be modified in the ***jeopardy-db.js*** file.)
 ## SQL Server - Jeopardy - Database setup
 The SQL Server must have TCP/IP network protocol installed.  And the default port number of 1433 is
