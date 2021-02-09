@@ -15,7 +15,7 @@ can be modified in the ***jeopardy-db.js*** file.)
 The SQL Server must have TCP/IP network protocol installed.  And the default port number of 1433 is
 used to connect to the database (if necessary, the port number can be modified in the ***jeopardy-db.js***
 file.)  The user name and password for SQL
-Authentication must be setup through the SQL server and updated in the logindata.js file.
+Authentication must be setup through the SQL server and updated in the ***logindata.js*** file.
 This application looks for SQL Server database with ***Jeopardy*** name
 containing table information as follows:
 ### Categories (table with the following entries)
